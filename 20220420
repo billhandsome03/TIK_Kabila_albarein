@@ -1,0 +1,58 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b, c, d,
+    string keterangan;
+    
+    cout<<"masukan nilai tugas: ";cin>>a;
+    if(a >=100)( 
+        keterangan = "nilai tidak boleh lebih dari 100";
+        cout<<keterangan<<endl;
+        return 0;
+    }
+    
+    
+    
+    cout<<"masukan nilai uts: ";cin>>b;
+    if (b >= 100)(
+        keterangan = "nilai tidak boleh lebih dari 100";
+        cout<<keterangan<<endl;
+        return 0;
+    }
+    
+    
+    
+    cout<<"masukan nilai uas; ";cin>>c;
+    if (c > 100)(
+        keterangan = "nilai tidak boleh lebih dari 100";
+        cout<<keterangan<<endl;
+    if(a >=100 || b >=100 || c >=100)(
+        keterangan = "nilai tidak boleh lebih dari 100";
+        return 0;
+        )
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Buatlah sebuah program sederhana untuk menghitung nilai akhir ;
+dengan ketentuan
+nilai akhir = 30% nilai tugas + 30% nilai uts + 40% nilai uas 
+jika salah satu nilai lebih dari 100 program,
+program akan langsung berhenti 
+dengan memberikan statamen tidak boleh lebih dari 100
+*/
