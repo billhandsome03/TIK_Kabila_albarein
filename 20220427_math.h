@@ -7,11 +7,10 @@ int main(){
         cout<<"1 "<<" * "<<number1<<" = "<<number1*1<<endl;
     }
     cout<<endl<<endl;
-    int number2 = 0
-    while (number2++ <10){
-        cout<<"2 "<<" * "<<number2<<" = "<<number2*2<<endl;
+    int number3 = 0;
+    while (number3++ <10){
+        cout<<"3 "<<" * "<<number3<<" = "<<number3*3<<endl;
     }
     
     return 0;
  }   
-    
